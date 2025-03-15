@@ -8,7 +8,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/abenezer-tesfaye-191579214/)
 
 
-This Python script is designed to scrape hotel information from **Booking.com** using the BeautifulSoup and Requests libraries. 
+I wrote this script to scrape hotel information from **Booking.com** using the BeautifulSoup and Requests libraries. 
 It automates the process of collecting key hotel details, such as *hotel names, locations, prices, ratings, review counts, distances from the city center, 
 free cancellation status, and direct links to hotel pages*. The script sends **HTTP requests** to a user-provided Booking.com search URL, parses the HTML content, and saves the extracted data into a structured CSV file. 
 To avoid detection and rate limiting, it uses a custom user agent and implements a random delay between requests, mimicking human browsing behavior.
