@@ -41,9 +41,9 @@ To avoid detection and rate limiting, it uses a custom user agent and implements
 * Python → 3.12.3
 * BeautifulSoup4 → 4.13.3
 * Requests → 2.32.3
-* CSV (standard library)
-* Time (standard library)
-* Random (standard library)
+* CSV 
+* Time 
+* Random 
 ```
 
 ### ⚙️ **Usage**
