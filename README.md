@@ -13,7 +13,7 @@ It automates the process of collecting key hotel details, such as *hotel names, 
 free cancellation status, and direct links to hotel pages*. The script sends **HTTP requests** to a user-provided Booking.com search URL, parses the HTML content, and saves the extracted data into a structured CSV file. 
 To avoid detection and rate limiting, it uses a custom user agent and implements a random delay between requests, mimicking human browsing behavior.
 
-> Note: For large-scale data scraping, I would consider using tools like ***Bright Data*** to manage proxies and avoid IP blocking when making frequent requests. Also, to use ***Selenium*** Library to manage reload time and other web page related and brwoser related issues that might arise.
+> Remember: For large-scale data scraping, I would consider using tools like ***Bright Data*** to manage proxies and avoid IP blocking when making frequent requests. Also, to use ***Selenium*** Library to manage reload time and other web page related and brwoser related issues that might arise.
 
 
 ### ✨ **Features**
@@ -46,7 +46,7 @@ To avoid detection and rate limiting, it uses a custom user agent and implements
 * Random (standard library)
 ```
 
-⚙️ ### **Usage**
+### ⚙️ **Usage**
 
 1. Clone the repository:
 ```bash
@@ -65,14 +65,18 @@ To avoid detection and rate limiting, it uses a custom user agent and implements
    ```
 4. Provide inputs when prompted:
 
-  * Enter the Booking.com search URL.
-  * Specify a file name for the CSV output.
+    * Enter the Booking.com search URL.
+    * Specify a file name for the CSV output.
 
-**Example:**
+    **Example:**
+  
+      > Please enter the web url: https://www.booking.com/searchresults.html?ss=Miami
+      
+      > Please create a file name: miami_hotels
 
-    > Please enter the web url: https://www.booking.com/searchresults.html?ss=Miami
-    
-    > Please create a file name: miami_hotels
+5. You should see a new csv fle created with the new provided name
+
+   eg. ***miami_hotels.csv*** 
 
 ### 📝 **License**
 
